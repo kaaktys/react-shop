@@ -1,38 +1,124 @@
-.App {
+.wrapper {
+  display: grid;
+  grid-template-areas: "h h" "m m" "s s" "n c" "f f";
+  grid-template-rows: 100px 50px 250px 260px 120px;
+  grid-template-columns: 6fr 6fr;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  grid-area: h;
+  background-color:white;
+}
+
+
+.menu {
+  grid-area: m;
+  background-color: darkgray;
+  display: table-cell;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.menu a {
+  grid-area: m;
   color: white;
+  text-align: center;
+  padding:  15px;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  list-style-type: none;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* .topmenu a {
+  background-color: darkgray;
+  color: white;
+  text-align: center;
+  padding:  15px;
+  display: table-cell;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  list-style-type: none;
+} */
+
+
+
+/* .menu {
+  grid-area: m;
+  background-color: darkgrey;
+  display: block;
+  padding: 2em;
+  border-right: 1px solid #ADC0CE;
+  background: rgba(173, 192, 206, .3);
+  color: #29838C;
+  text-decoration: none; */
+/* } */
+
+/* .menu ul {
+  background: #D4E7EE;
+  overflow: hidden;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu li {
+  float: left;
+  list-style-type: none;
+} */
+
+/* .menu a {
+  display: block;
+  padding: 2em;
+  border-right: 1px solid #ADC0CE;
+  background: rgba(173, 192, 206, .3);
+  color: #29838C;
+  text-decoration: none;
+} */
+
+
+
+.slider {
+  grid-area: s;
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.slider img {
+  grid-area: s;
+  height: 200px;
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.prev-btn {
+grid-area: s;
+float: left;
+padding-left: 150px;
+}
+
+.next-btn {
+grid-area: s;
+float: right;
+padding-right: 150px;
+}
+
+
+.nav {
+  grid-area: n;
+  text-decoration: none;
+  list-style-type: none;
+} 
+
+.content {
+  grid-area: c;
+
+}
+
+.footer {
+  grid-area: f;
+  background-color: darkgrey;
 }
