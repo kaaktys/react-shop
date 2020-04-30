@@ -40,7 +40,9 @@ function App() {
           </ul>
         </div>
       <div className="content">
+        <div> leftblock </div>
         Content
+        <div> centerblock </div>
       </div>
       <div className="footer">
         Footer

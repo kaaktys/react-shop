@@ -3,7 +3,9 @@
   grid-template-areas: "h h" "m m" "s s" "n c" "f f";
   grid-template-rows: 100px 50px 250px 260px 120px;
   grid-template-columns: 6fr 6fr;
-  width: 1200px;
+  width: 980px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin: 0 auto;
 }
 
@@ -89,7 +91,7 @@
 .slider img {
   grid-area: s;
   height: 200px;
-  width: 1200px;
+  width: 980px;
   margin: 0 auto;
   position: relative;
 }
