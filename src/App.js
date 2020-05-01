@@ -1,39 +1,27 @@
 import React from 'react';
 import './App.css';
-import SliderComponent from './components/Slider-Component/SliderComponent';
-import NavComponent from './components/Nav-Component/NavComponent';
-import HeaderComponent from './components/Header-Component/HeaderComponent';
-import MenuComponent from './components/Menu-Component/MenuComponent';
+import SliderComponent from './components/Slider/SliderComponent';
+import NavComponent from './components/Navbar/NavComponent';
+import HeaderComponent from './components/Header/HeaderComponent';
+import MenuComponent from './components/Menu/MenuComponent';
+import ContentComponent from './components/Content/ContentComponent';
+import FooterComponent from './components/Footer/FooterComponent';
 
 function App() {
   return (
     <div className="wrapper">
 
-      <div className="header">
-        <HeaderComponent />
-      </div>
+      <HeaderComponent />
 
-      <div className="menu">
-        <MenuComponent />
-      </div>
+      <MenuComponent />
 
-      <div className="slider">
-        <SliderComponent /> 
-      </div>
+      <SliderComponent />
 
-      <div className="nav">
-         <NavComponent />
-      </div>
+      <NavComponent />
 
-      <div className="content">
-        <div> leftblock </div>
-        Content
-        <div> centerblock </div>
-      </div>
+      <ContentComponent />
 
-      <div className="footer">
-        Footer
-      </div>
+      <FooterComponent />
 
     </div>
   );

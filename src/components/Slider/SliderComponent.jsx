@@ -32,9 +32,8 @@ class SliderComponent extends Component {
       slidesToScroll: 1,
       className: 'slides'
     }
-
     return (
-      <div className="App">
+      <div className="slider">
         <Slider {...settings}>
           {photos.map((photo) => {
             return (

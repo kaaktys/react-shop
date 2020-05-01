@@ -1,3 +1,10 @@
+.slider {
+  grid-area: s;
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
 .slides {
   position: relative;
 }
@@ -16,3 +23,7 @@
 .slides .slick-next {
   right: 5%;
 }
+
+
+
+

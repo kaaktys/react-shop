@@ -4,7 +4,7 @@ import logo from '../../assets/logo.png';
 
 const HeaderComponent = () => {
     return (
-        <div className='header'>
+        <div className="header">
             <img src={logo} />
             <h3>Название компании</h3>
             <p>самая клевая компания</p>
