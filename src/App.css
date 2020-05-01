@@ -1,7 +1,7 @@
 .wrapper {
   display: grid;
   grid-template-areas: "h h" "m m" "s s" "n c" "f f";
-  /* grid-template-rows: 100px 50px 250px 260px 120px; */
+  grid-template-rows: auto auto auto auto auto;
   grid-template-columns: 6fr 6fr;
   width: 980px;
   padding-left: 10px;
