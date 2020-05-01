@@ -1,7 +1,7 @@
 .wrapper {
   display: grid;
   grid-template-areas: "h h" "m m" "s s" "n c" "f f";
-  grid-template-rows: 100px 50px 250px 260px 120px;
+  /* grid-template-rows: 100px 50px 250px 260px 120px; */
   grid-template-columns: 6fr 6fr;
   width: 980px;
   padding-left: 10px;
@@ -14,24 +14,6 @@
   background-color:white;
 }
 
-
-.menu {
-  grid-area: m;
-  background-color: darkgray;
-  display: table-cell;
-  text-align: center;
-}
-
-.menu a {
-  grid-area: m;
-  color: white;
-  text-align: center;
-  padding:  15px;
-  font-size: 15px;
-  font-weight: bold;
-  text-decoration: none;
-  list-style-type: none;
-}
 
 
 /* .topmenu a {
@@ -109,12 +91,6 @@ padding-right: 150px;
 }
 
 
-
-.nav {
-  grid-area: n;
-  text-decoration: none;
-  list-style-type: none;
-} 
 
 .content {
   grid-area: c;

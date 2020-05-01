@@ -1,0 +1,17 @@
+.menu {
+    grid-area: m;
+    background-color: darkgray;
+    display: table-cell;
+    text-align: center;
+  }
+  
+  .menu a {
+    grid-area: m;
+    color: white;
+    text-align: center;
+    padding:  15px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    list-style-type: none;
+  }

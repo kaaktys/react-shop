@@ -1,34 +1,28 @@
 import React from 'react';
 import './App.css';
-import SliderComponent from './components/Slider-component/SliderComponent';
+import SliderComponent from './components/Slider-Component/SliderComponent';
+import NavComponent from './components/Nav-Component/NavComponent';
+import HeaderComponent from './components/Header-Component/HeaderComponent';
+import MenuComponent from './components/Menu-Component/MenuComponent';
 
 function App() {
   return (
     <div className="wrapper">
+
       <div className="header">
-        Header
+        <HeaderComponent />
       </div>
 
       <div className="menu">
-        <a href="">Главная</a>
-        <a href="">Каталог</a>
-        <a href="">Доставка и оплата</a>
-        <a href="">Прайс-лист</a>
-        <a href="">Контакты</a>
+        <MenuComponent />
       </div>
 
       <div className="slider">
         <SliderComponent /> 
       </div>
 
-      <div className="nav"> Навбар
-          <ul>
-          <li><a href="Бытовая техника">Бытовая техника</a></li>
-          <li><a href="Мобильная техника">Мобильная техника</a></li>
-          <li><a href="Компьютеры">Компьютеры</a></li>
-          <li><a href="Одежда">Одежда</a></li>
-          <li><a href="Недвижимость">Недвижимость</a></li>
-        </ul>
+      <div className="nav">
+         <NavComponent />
       </div>
 
       <div className="content">
