@@ -1,3 +1,5 @@
 .content {
-    grid-area: c;
-  }
+  width: 980px;
+  margin: auto;
+  padding: 0 10px;
+}

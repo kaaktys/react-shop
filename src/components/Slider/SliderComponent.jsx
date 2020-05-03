@@ -23,7 +23,7 @@ class SliderComponent extends Component {
   render() {
 
     const settings = {
-      dots: true,
+      dots: false,
       fade: true,
       infinite: true,
       speed: 500,
@@ -34,16 +34,17 @@ class SliderComponent extends Component {
     }
     return (
       <div className="slider">
-        <Slider {...settings}>
-          {photos.map((photo) => {
-            return (
-              <div>
-                <img src={photo.url} />
-              </div>
-            )
-          })}
-
-        </Slider>
+        <div className="slider-content">
+          <Slider {...settings}>
+            {photos.map((photo) => {
+              return (
+                <div>
+                  <img src={photo.url} />
+                </div>
+              )
+            })}
+          </Slider>
+        </div>
       </div>
     )
   }

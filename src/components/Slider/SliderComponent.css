@@ -1,5 +1,4 @@
 .slider {
-  grid-area: s;
   width: 100%;
   margin: auto;
   position: relative;
@@ -9,11 +8,10 @@
   position: relative;
 }
 
-.slides .slick-prev,
-.slides .slick-next {
+.slides .slick-prev, .slides .slick-next {
   position: absolute;
   top: 50%;
-  z-index:1;
+  z-index: 1;
 }
 
 .slides .slick-prev {
@@ -24,6 +22,8 @@
   right: 5%;
 }
 
-
-
-
+.slider-content {
+  width: 980px;
+  margin: auto;
+  padding: 0 10px;
+}

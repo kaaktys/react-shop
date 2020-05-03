@@ -1,4 +1,6 @@
 .footer {
-    grid-area: f;
-    background-color: darkgrey;
-  }
+  background-color: darkgrey;
+  width: 980px;
+  margin: auto;
+  padding: 0 10px;
+}

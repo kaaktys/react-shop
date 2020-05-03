@@ -1,10 +1,10 @@
 .wrapper {
-  display: grid;
-  grid-template-areas: "h h" "m m" "s s" "n c" "f f";
-  grid-template-rows: auto auto auto auto auto;
-  grid-template-columns: 6fr 6fr;
-  width: 980px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 0 10px;
+  font-size: 14px;
   margin: 0 auto;
 }
+
+/* 
+* {
+  border: 1px solid red;
+} */

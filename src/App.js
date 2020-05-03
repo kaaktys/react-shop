@@ -6,6 +6,7 @@ import HeaderComponent from './components/Header/HeaderComponent';
 import MenuComponent from './components/Menu/MenuComponent';
 import ContentComponent from './components/Content/ContentComponent';
 import FooterComponent from './components/Footer/FooterComponent';
+import BreadcrumbsComponent from './components/Breadcrumbs/BreadcrumbsComponent';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <MenuComponent />
 
       <SliderComponent />
+
+      <BreadcrumbsComponent />
 
       <NavComponent />
 

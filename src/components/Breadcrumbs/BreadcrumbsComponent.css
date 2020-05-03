@@ -1,18 +1,19 @@
-.nav {
+.breadcrumbs {
   width: 980px;
   margin: auto;
   padding: 0 10px;
 }
 
-.nav ul {
+.breadcrumbs ul {
   list-style: none;
 }
 
-.nav a {
+.breadcrumbs a {
   text-decoration: none;
+  padding: 8px;
 }
 
-.nav a:visited {
+.breadcrumbs a:visited {
   color: unset;
 }
 

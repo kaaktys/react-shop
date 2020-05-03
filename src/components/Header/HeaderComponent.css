@@ -1,7 +1,28 @@
 .header {
     grid-area: h;
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 980px;
+    margin: auto;
+    padding: 0 10px;
 }
+
 .header img {
-    width: 50px;
+    height: 80px;
+    width: auto;
+}
+
+.title-group {
+    display: flex;
+    align-items: center;
+}
+
+.contact-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-group .feedback{
+    text-decoration: underline dashed;
 }
