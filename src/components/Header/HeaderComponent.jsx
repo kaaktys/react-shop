@@ -1,15 +1,15 @@
 import React from 'react'
-import './HeaderComponent.css'
-import logo from '../../assets/logo.png';
+import './HeaderComponent.scss'
+// import logo from '../../assets/logo.png';
 
 const HeaderComponent = () => {
     return (
         <header className="header">
             <div className="title-group">
-                <img src={logo} />
+                <img src="" />
                 <div>
                     <h3>Название компании</h3>
-                    <p>Самая клевая компания</p>
+                    <p>самая клевая компания</p>
                 </div>
             </div>
 

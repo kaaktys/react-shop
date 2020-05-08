@@ -1,0 +1,47 @@
+.header {
+    grid-area: h;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 980px;
+    margin: auto;
+    padding: 36px 10px;
+
+    img {
+        background-color: black;
+        height: 100px;
+        width: 100px;
+        margin-top: 28px;
+    }
+
+    .title-group {
+        display: flex;
+
+        div {
+            padding-left: 10px;
+
+            h3 {
+                font-size: 30px;
+                font-family: "Open Sans", sans-serif;
+                font-weight: bold;
+                line-height: 0.8;
+                width: 150px;
+                padding-top: 36px;
+                color: black;
+            }
+
+            p {
+                padding-top: 14px;
+            }
+        }
+    }
+
+    .contact-group {
+        display: flex;
+        flex-direction: column;
+
+        .feedback {
+            text-decoration: underline dashed;
+        }
+    }
+}
