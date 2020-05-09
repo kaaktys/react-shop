@@ -1,13 +1,13 @@
 import React from 'react'
 import './HeaderComponent.scss'
-import logo from '../../assets/logo.png';
+// import logo from '../../assets/logo.png';
 
 const HeaderComponent = () => {
     return (
         <header className="header">
             <div className="header-content">
                 <div className="title-group">
-                    <img src={logo} />
+                    <img src="" />
                     <div>
                         <h3>Название компании</h3>
                         <p>самая клевая компания</p>
