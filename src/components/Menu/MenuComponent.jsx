@@ -1,5 +1,5 @@
 import React from 'react'
-import './MenuComponent.css'
+import './MenuComponent.scss'
 
 const MenuComponent = () => {
     return (

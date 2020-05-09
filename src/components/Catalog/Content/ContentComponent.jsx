@@ -1,5 +1,5 @@
 import React from 'react'
-import './ContentComponent.css'
+import './ContentComponent.scss'
 import catalogItem from '../../../assets/catalogItem.PNG'
 
 const ContentComponent = () => {

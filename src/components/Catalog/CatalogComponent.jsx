@@ -1,5 +1,5 @@
 import React from 'react'
-import './CatalogComponent.css'
+import './CatalogComponent.scss'
 import NavComponent from './Navbar/NavComponent'
 import ContentComponent from './Content/ContentComponent'
 
