@@ -1,5 +1,6 @@
 .slider {
-  width: 100%;
+  width: 1250px;
+  height: 400px;
   margin: auto;
   position: relative;
 }
@@ -8,22 +9,28 @@
   position: relative;
 }
 
-.slides .slick-prev, .slides .slick-next {
+.slides .slick-prev,
+.slides .slick-next {
   position: absolute;
   top: 50%;
   z-index: 1;
 }
 
+.slick-prev:before,
+.slick-next:before {
+  font-size: 32px !important;
+}
+
 .slides .slick-prev {
-  left: 5%;
+  left: 12%;
 }
 
 .slides .slick-next {
-  right: 5%;
+  right: 12%;
 }
 
 .slider-content {
-  width: 980px;
+  // width: 980px;
   margin: auto;
   padding: 0 10px;
 }

@@ -7,15 +7,15 @@ import Slider from 'react-slick'
 const photos = [
   {
     name: 'Photo 1',
-    url: 'https://catalogue.accasoftware.com/img/Utenti/2460/lofra.HEADER.1200x200-0_1518426395.PNG'
+    url: 'https://picsum.photos/1250/400?random=1'
   },
   {
     name: 'Photo 2',
-    url: 'https://catalogue.accasoftware.com/img/Utenti/2769/merillat.HEADER.1200x200-0_1523344062.PNG'
+    url: 'https://picsum.photos/1250/400?random=2'
   },
   {
-    name: 'Photo 3',
-    url: 'https://catalogue.accasoftware.com/img/Utenti/2039/ideal-standard.HEADER.1200x200-0_1511974598.PNG'
+    name: 'Photo 3',  
+    url: 'https://picsum.photos/1250/400?random=3'
   },
 ]
 
