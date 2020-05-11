@@ -1,10 +1,9 @@
 .content {
-  margin: auto;
-  padding: 0 10px;
-  display: flex;
-  justify-content: space-between;
+  width: 781px;
+  height: 1133px;
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+  }
 }
-
-
-
-

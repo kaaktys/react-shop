@@ -5,7 +5,7 @@ const NavComponent = () => {
   return (
     <div className="nav">
       <nav>
-        <ul type="none">
+        <ul >
           <li><a href="">Автомобили</a></li>
           <li>
             <a href="">Бытовая техника</a>

@@ -1,6 +1,10 @@
 .nav {
-  margin: auto;
-  padding: 0 10px;
+  width: 178px;
+  height: 254px;
+  white-space: nowrap;
+  font-family: "PT Sans";
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .nav a {
@@ -10,4 +14,3 @@
 .nav a:visited {
   color: unset;
 }
-
