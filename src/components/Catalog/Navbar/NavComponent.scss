@@ -5,12 +5,31 @@
   font-family: "PT Sans";
   font-size: 18px;
   font-weight: 400;
+  padding: 26px 22px 110px 0px;
+  color: #767676;
+
+  a {
+    text-decoration: none;
+  }
+  a:visited {
+    color: unset;
+  }
+  .outer-ul {
+    list-style: none;
+    text-decoration: none;
+    #appliances{
+      text-decoration: underline;
+    }
+  }
+  .inner-ul {
+    list-style: disc;
+    color: #767676;
+    list-style-position: inside;
+    #microwaves{
+      text-decoration: underline;
+      font-weight: bold;
+      color: black;
+    }
+  }
 }
 
-.nav a {
-  text-decoration: none;
-}
-
-.nav a:visited {
-  color: unset;
-}

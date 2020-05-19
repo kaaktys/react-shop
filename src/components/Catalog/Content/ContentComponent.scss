@@ -1,9 +1,40 @@
 .content {
-  width: 781px;
-  height: 1133px;
+  width: 980px;
+  height: 1134px;
+  font-family: "PT Sans";
+  font-size: 18px;
+  padding: 26px 210px 200px 22px;
   ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 12px;
+    list-style: none;
+
+  }
+  .paragraph {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.35px;
+    // grid-column-gap: 40em;
+    // grid-row-gap: 40em;
+
+    .p-first {
+      width: 371px;
+      height: 168px;
+      p{
+
+      }
+    }
+    .p-second {
+      width: 368px;
+      height: 212px;
+      p{
+
+      }
+    }
   }
 }
