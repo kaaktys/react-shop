@@ -1,19 +1,22 @@
 .breadcrumbs {
   width: 980px;
   margin: auto;
-  padding: 0 10px;
-}
+  padding: 0px 10px 0px 0px;
+  .nav {
+    line-height: 18px;
+  }
 
-.breadcrumbs ul {
-  list-style: none;
+  a {
+    text-decoration: none;
+    padding: 8px;
+  }
+  a:visited {
+    color: unset;
+  }
+  #home {
+    text-decoration: underline;
+  }
+  #catalog {
+    text-decoration: underline;
+  }
 }
-
-.breadcrumbs a {
-  text-decoration: none;
-  padding: 8px;
-}
-
-.breadcrumbs a:visited {
-  color: unset;
-}
-
